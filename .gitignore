@@ -1,0 +1,24 @@
+# Laravel
+/laravel/vendor/
+/laravel/node_modules/
+/laravel/storage/*.key
+/laravel/.env
+/laravel/storage/logs/*
+/laravel/bootstrap/cache/*
+/laravel/public/storage
+/laravel/.idea/
+/laravel/.vscode/
+
+# Docker volumes
+/dbdata/
+/pgdata/
+
+# Composer & NPM
+composer.lock
+package-lock.json
+
+# IDEs e sistema
+.DS_Store
+*.swp
+*.swo
+*.log
